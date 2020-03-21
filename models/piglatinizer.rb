@@ -1,11 +1,8 @@
 class PigLatinizer
-@@words = []
-  
-  def split(sentence)
-    @@words << sentence.split(' ')
-  end
 
-  def piglatinize(words)
+  def piglatinize(sentence)
+    words = sentence.split(' ')
+    
     words.each {|word|
     if word[0].match[/aeiou/] 
       word + 'way'
