@@ -7,7 +7,7 @@ class PigLatinizer
       if word[0].match(/[AaEeIiOoUu]/)
         word + "way"
       else
-        arr = word.split(/([AaEeIiOoUu].*)/)
+        arr = word.split(/([aeiou].*)/)
         arr[1] + arr[0] + "ay"
         
       end
