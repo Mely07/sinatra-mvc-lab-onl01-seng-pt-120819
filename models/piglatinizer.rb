@@ -30,4 +30,4 @@ class PigLatinizer
 end
 
 sentence = PigLatinizer.new 
-sentence.piglatinize('noodle soup')
+sentence.piglatinize('noodle soup apple')
