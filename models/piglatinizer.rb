@@ -5,7 +5,7 @@ class PigLatinizer
     
     words.each {|word|
       word.split('').each {|letter|
-        if (letter.match[/aeiou/])
+        if (letter.match(/aeiou/))
           puts 'yay'
         else
           puts 'nay'
