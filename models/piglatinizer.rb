@@ -26,5 +26,5 @@ class PigLatinizer
  
 end
 
-sentence = PigLatinizer
+sentence = PigLatinizer.new 
 sentence.piglatinize('hello')
