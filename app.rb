@@ -8,7 +8,7 @@ class App < Sinatra::Base
   # post '/'
   @x = PigLatinizer.new(params[:user_phrase])
  
-  erb :
+  erb :output
   # end
   
 end
