@@ -3,9 +3,9 @@ class PigLatinizer
   def piglatinize(sentence)
     words = sentence.split(' ')
     
-    words.map {|word|
+    words = words.map {|word|
       if word[0].match(/[aeiou]/)
-        puts word + "way"
+        word + "way"
       else
         
         
