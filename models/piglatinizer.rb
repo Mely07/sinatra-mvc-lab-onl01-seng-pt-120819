@@ -4,8 +4,9 @@ class PigLatinizer
     words = sentence.split(' ')
     
     words.each {|word|
-      letters = word[0]
-      puts letters
+      if word[0].match(/[aeiou]/)
+        word + "way"
+      end
       # word.split('').each {|letter|
       #   if (letter.match(/[aeiou]/))
       #     puts 'yay'
@@ -17,7 +18,7 @@ class PigLatinizer
     
     
     
-    # if word[0].match[/aeiou/] 
+    # if word[0].match([/aeiou/]) 
     #   word + 'way'
     # else
     #   arr = word.split/([aeiou].*)/ 
