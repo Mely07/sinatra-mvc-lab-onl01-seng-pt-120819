@@ -25,3 +25,6 @@ class PigLatinizer
   end
  
 end
+
+sentence = PigLatinizer
+sentence.piglatinize('hello')
