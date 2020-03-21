@@ -12,6 +12,7 @@ class PigLatinizer
         
       end
     }
+    words.to_s
   end
  
 end
