@@ -5,10 +5,10 @@ class App < Sinatra::Base
     erb :user_input
   end
   
-  # post '/'
-  @ = PigLatinizer.new(params[:])
+  # # post '/'
+  # @ = PigLatinizer.new(params[:])
  
-  erb :
-  # end
+  # erb :
+  # # end
   
 end
