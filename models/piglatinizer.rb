@@ -5,7 +5,7 @@ class PigLatinizer
     
     words.map {|word|
       if word[0].match(/[aeiou]/)
-        word + "way"
+        puts word + "way"
       else
         
         
