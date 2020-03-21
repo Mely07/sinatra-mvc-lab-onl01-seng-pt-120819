@@ -4,13 +4,14 @@ class PigLatinizer
     words = sentence.split(' ')
     
     words.each {|word|
-      word.split('').each {|letter|
-        if (letter.match(/[aeiou]/))
-          puts 'yay'
-        else
-          puts 'nay'
-        end
-      }
+      letters = word.split('');
+      # word.split('').each {|letter|
+      #   if (letter.match(/[aeiou]/))
+      #     puts 'yay'
+      #   else
+      #     puts 'nay'
+      #   end
+      # }
     }
     
     
