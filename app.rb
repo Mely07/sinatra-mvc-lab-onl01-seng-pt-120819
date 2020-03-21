@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
   
   # # post '/'
-  # @ = PigLatinizer.new(params[:])
+  # @x = PigLatinizer.new(params[:user_])
  
   # erb :
   # # end
